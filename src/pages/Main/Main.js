@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import Post from "../Post/Post";
-import Info from "../Info/info";
+import Post from "../../components/Post/Post";
+import Info from "../../components/Info/info";
 
 class Main extends React.Component{
     render(){

@@ -1,7 +1,7 @@
 import React from "react";
-import About from "../../components/About/About";
-import PopularPosts from "../../components/PopularPost/PopularPosts";
-import Tags from "../../components/Tags/Tags";
+import About from "../About/About";
+import PopularPosts from "../PopularPost/PopularPosts";
+import Tags from "../Tags/Tags";
 
 class Info extends React.Component{
     render() {
