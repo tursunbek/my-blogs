@@ -6,14 +6,14 @@ import { BrowserRouter, Route, Link } from "react-router-dom";
 class App extends React.Component{
     constructor(props) {
         super(props);
-        console.log(window.location.pathname)
+        // console.log(window.location.pathname)
     }
   render(){
     return (
       <>
         <BrowserRouter>
             <Route path="/" exact component={Main} />
-            <Route path="/PostFull" exact component={PostFull} />
+            <Route path="/PostFull/:id" exact component={PostFull} />
         </BrowserRouter>
       </>
     )
