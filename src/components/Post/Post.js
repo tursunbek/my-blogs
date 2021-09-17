@@ -11,7 +11,7 @@ class Post extends React.Component{
         }
     }
 
-    componentDidMount() {
+    componentDidMount( ) {
         fetch('http://localhost:3001/posts')
             .then(response => {
                 if(response.ok){

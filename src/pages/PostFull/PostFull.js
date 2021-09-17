@@ -10,7 +10,7 @@ import CommentsPub from "../../components/CommentsPub/CommentsPub";
 
 
 class FullPost extends React.Component {
-    constructor(props) {
+    constructor(props ) {
         super(props);
 
         console.log('location: ', this.props.location)

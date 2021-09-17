@@ -4,7 +4,7 @@ import PostFull from "../../pages/PostFull/PostFull";
 import {Link} from 'react-router-dom'
 
 class PostCard extends React.Component{
-    render(){
+    render( ){
         return (
             <>
                 <div className="w3-card-4 w3-margin w3-white">

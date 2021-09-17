@@ -4,7 +4,7 @@ import PostFull from "./pages/PostFull/PostFull";
 import { BrowserRouter, Route, Link } from "react-router-dom";
 
 class App extends React.Component{
-    constructor(props) {
+    constructor(props ) {
         super(props);
         // console.log(window.location.pathname)
     }
