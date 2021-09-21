@@ -12,7 +12,7 @@ class Post extends React.Component{
     }
 
     componentDidMount( ) {
-        fetch('http://localhost:3001/posts')
+        fetch('http://localhost:3003/posts')
             .then(response => {
                 if(response.ok){
                     return response.json();

@@ -1,6 +1,6 @@
 import React from "react";
 import woods from './../../media/image/woods.jpg';
-import PostFull from "../../pages/PostFull/PostFull";
+import PostFull from "./../../pages/PostFull/PostFull";
 import {Link} from 'react-router-dom'
 
 class PostCard extends React.Component{
@@ -18,7 +18,7 @@ class PostCard extends React.Component{
                             <p>{this.props.desc}</p>
                             <div className="w3-row">
                                 <div className="w3-col m8 s12">
-                                    <Link to={'/postFull/${this.props.id}'}>
+                                    <Link to={`/PostFull/${this.props.id}`}>
                                         <button className="w3-button w3-padding-large w3-white w3-border">
                                             <b>READ MORE »</b></button>
                                     </Link>
